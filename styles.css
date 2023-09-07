@@ -1,0 +1,250 @@
+/* ... Previous styles ... */
+
+.content {
+    margin: 80px auto;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e50914;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.content-item {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-item:hover {
+    transform: translateY(-5px);
+}
+
+.content-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.content-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.content-item p {
+    font-size: 1rem;
+    color: #aaa;
+}
+/* ... Previous styles ... */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Change to dark grey */
+    color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+    transition: width 0.3s ease-in-out;
+}
+
+.search-bar input:focus {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+
+.content-item {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-item:hover {
+    transform: translateY(-5px);
+}
+
+.content-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.content-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.content-item p {
+    font-size: 1rem;
+    color: #aaa;
+}
+/* ... Previous styles ... */
+/* ... Previous styles ... */
+
+.get-started {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grt-started-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.get-started-button:hover {
+    background-color: #d10812;
+    transform: scale(1.05);
+}
+
+/* ... Remaining styles ... */
+/* ... Previous styles ... */
+
+.see-more {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.see-more-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.see-more-button:hover {
+    background-color: #d10812;
+    transform: scale(1.05);
+}
+
+/* ... Remaining styles ... */
+/* ... Previous styles ... */
+
+.container {
+    position: relative;
+}
+
+.open-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.side-menu {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #141414;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 20px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* ... Remaining styles ... */
+/* ... Previous styles ... */
+
+/* ... Previous styles ... */
+
+.open-button {
+    position: fixed;
+    top: 20px;
+    left: 800px;
+    right: 20px; /* Position at top right */
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.side-menu {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -10px; /* Start offscreen from top right */
+    background-color: #141414;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.open-menu .side-menu {
+    right: 0; /* Slide into view from top right */
+}
+
+/* ... Remaining styles ... */
+
